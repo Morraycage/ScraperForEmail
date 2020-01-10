@@ -1,0 +1,17 @@
+{
+  "name": "rouelibre",
+  "version": "1.0.0",
+  "description": "Scraper pour récuperer l'email à partir d'un SIRET",
+  "main": "scraper.js",
+  "dependencies": {
+    "csv-parser": "^2.3.2",
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node scraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
